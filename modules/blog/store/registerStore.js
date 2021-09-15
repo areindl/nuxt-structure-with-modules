@@ -1,4 +1,4 @@
-// This must be relative to .nuxt since it it registert at RUNTIME
+// This must be relative to .nuxt since it it registered at RUNTIME
 import * as blogStore from '../modules/blog/store/blog.js'
 
 export default async ({ store }) => {
