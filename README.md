@@ -12,7 +12,7 @@ In this talk I will introduce Domain Driven Design and talk about structuring ap
 
 ### 📚 Resources
 
-- [x] [Slides of this Talk]()
+- [x] [Slides of this Talk](https://github.com/areindl/nuxt-structure-with-modules/blob/de5594097c253ac4ed1570827fd6ce5b128349d3/static/slides.pdf)
 - [x] Blog post [Domain-Driven Design in Nuxt Apps](https://vueschool.io/articles/vuejs-tutorials/domain-driven-design-in-nuxt-apps/) by Filip Rakowski
 - [x] Recommended DDD-Books:
   - [x] Domain-Driven Design: Tackling Complexity in the Heart of Software - by Eric Evans
