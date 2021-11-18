@@ -1,6 +1,6 @@
 # 🙋🏽‍♂️ Domain-Driven Design & Nuxt - Using Nuxt Modules to structure large Nuxt Apps
 
-#### ⚡️ Talk at NUXT NATION 2021 by Anton Reindl
+#### ⚡️ Talk at NUXT NATION 2021 by Anton Reind
 
 In this talk I will introduce Domain Driven Design and talk about structuring apps according to domain modules, and demonstrate how to use Nuxt modules to create independent submodules including Vuex modules and routes.
 
