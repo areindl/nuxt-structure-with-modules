@@ -4,9 +4,18 @@
 
 In this talk I will introduce Domain Driven Design and talk about structuring apps according to domain modules, and demonstrate how to use Nuxt modules to create independent submodules including Vuex modules and routes.
 
+# Nuxt 3
+
+I have implememted a quick POC how this can be can be done using hooks in Nuxt 3
+
+Look into branch: [Nuxt 3](https://github.com/areindl/nuxt-structure-with-modules/tree/nuxt3)
+
+# Nuxt 2
+
+
 ## 👨🏼‍💻 Demo
 
-1. This Nuxt.js-app is a barebone create-nuxt-app installation
+1. This Nuxt.js 2 app is a barebone create-nuxt-app installation
 2. As a showcase example, the app adds two modules: a blog module and a shop module
 3. The modules are implemented as a [Nuxt Module](https://nuxtjs.org/docs/2.x/directory-structure/modules#write-your-own-module) with their individual routing, store, etc.
 
