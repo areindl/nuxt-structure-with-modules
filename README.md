@@ -1,13 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3: Domain Driven Modules and Code Structure
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
+
+## Scope
+
+This example implements a fresh Nuxt 3 with a Blog module imported from `.modules/blog'.
 
 ## Setup
 
 Make sure to install the dependencies
 
 ```bash
-yarn install
+npm install
 ```
 
 ## Development
@@ -15,7 +19,7 @@ yarn install
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+npm dev
 ```
 
 ## Production
@@ -23,7 +27,7 @@ yarn dev
 Build the application for production:
 
 ```bash
-yarn build
+npm build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
