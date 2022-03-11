@@ -6,7 +6,7 @@ In this talk I will introduce Domain Driven Design and talk about structuring ap
 
 # Nuxt 3
 
-I have implememted a quick POC how this can be can be done using hooks in Nuxt 3
+I have implememented a quick proof-of-concept how this can be done using hooks in Nuxt 3
 
 Look into branch: [Nuxt 3](https://github.com/areindl/nuxt-structure-with-modules/tree/nuxt3)
 
