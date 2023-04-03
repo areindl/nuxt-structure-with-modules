@@ -1,7 +1,11 @@
 <template>
   <div>
-    <h3>Index Page</h3>
-    <nuxt-link :to="{ name: 'blog' }">Open Blog Module</nuxt-link>
+    <h3 class="font-bold text-xl mb-10">
+      Nuxt 3 Modules for Domain Driven Design
+    </h3>
+    <nuxt-link class="hover:underline" :to="{ name: 'blog' }"
+      >Open Blog Module</nuxt-link
+    >
   </div>
 </template>
 

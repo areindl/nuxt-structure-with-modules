@@ -1,6 +1,7 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -9,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.3.3",
-    "@nuxt/kit": "^3.3.3"
+    "@types/node": "^18.15.11",
+    "nuxt": "^3.3.3"
   }
 }

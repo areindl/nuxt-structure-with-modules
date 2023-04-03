@@ -1,6 +1,11 @@
 <template>
   <div class="blog-article-list flex space-x-20">
-    <div v-for="article in articles" :key="article.id" class="w-1/3">
+    <div
+      v-for="article in articles"
+      v-if="articles.length"
+      :key="article.id"
+      class="w-1/3"
+    >
       <img
         class="rounded-lg w-full h-auto"
         :src="`https://picsum.photos/id/${article.id}/500`"

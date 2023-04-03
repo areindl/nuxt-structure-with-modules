@@ -23,15 +23,15 @@ export default defineNuxtModule({
     })
 
     // Auto register composables
-    nuxt.hook('imports:extend', (dirs) => {
+    nuxt.hook('imports:dirs', (dirs) => {
       dirs.push(resolve(__dirname, './composables'))
     })
 
     // Auto register pages
     nuxt.hook('pages:extend', (pages) => {
       pages.push({
-        name: 'blog-page',
-        path: '/blog/:id',
+        name: 'blog',
+        path: '/blog',
         file: resolve(__dirname, './pages/blog.vue'),
       })
     })
