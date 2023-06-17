@@ -1,8 +1,9 @@
-import { defineNuxtModule } from '@nuxt/kit'
-import { resolve, join } from 'pathe'
-import type { Nuxt } from '@nuxt/schema'
+import { defineNuxtModule, createResolver } from '@nuxt/kit'
 
-export default defineNuxtModule({
+// Module options TypeScript interface definition
+export interface ModuleOptions {}
+
+export default defineNuxtModule<ModuleOptions>({
   meta: {
     // Usually the npm package name of your module - in this case a local modal
     name: 'blog-module',
@@ -14,17 +15,19 @@ export default defineNuxtModule({
       nuxt: '^3.3.0',
     },
   },
-  setup(options: any, nuxt: Nuxt) {
+  // Default configuration options of the Nuxt module
+  defaults: {},
+  setup (options, nuxt) {
+    const { resolve } = createResolver(import.meta.url)
+
     // Auto register components
     nuxt.hook('components:dirs', (dirs) => {
-      dirs.push({
-        path: join(__dirname, 'components'),
-      })
+      dirs.push(resolve('./runtime/components'))
     })
 
     // Auto register composables
     nuxt.hook('imports:dirs', (dirs) => {
-      dirs.push(resolve(__dirname, './composables'))
+      dirs.push(resolve('./runtime/composables'))
     })
 
     // Auto register pages
@@ -32,7 +35,7 @@ export default defineNuxtModule({
       pages.push({
         name: 'blog',
         path: '/blog',
-        file: resolve(__dirname, './pages/blog.vue'),
+        file: resolve('./runtime/pages/blog.vue'),
       })
     })
   },

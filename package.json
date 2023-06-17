@@ -3,14 +3,20 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "npm run build:module:blog && nuxt build",
+    "build:module:blog": "nuxt-module-build modules/blog",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "@nuxt/kit": "^3.5.2"
+  },
   "devDependencies": {
     "@types/node": "^18.15.11",
-    "nuxt": "^3.3.3"
+    "@nuxt/module-builder": "^0.4.0",
+    "@nuxt/schema": "^3.5.2",
+    "nuxt": "^3.5.1"
   }
 }
