@@ -11,7 +11,7 @@ export default defineNuxtModule({
     // Compatibility constraints
     compatibility: {
       // Semver version of supported nuxt versions
-      nuxt: '^3.3.0',
+      nuxt: '^3.9.0',
     },
   },
   setup(options: any, nuxt: Nuxt) {
