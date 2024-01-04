@@ -1,17 +1,8 @@
 # 🙋🏽‍♂️ Domain-Driven Design & Nuxt - Using Nuxt Modules to structure large Nuxt Apps
 
-#### ⚡️ Talk at NUXT NATION 2021 by Anton Reindl
-
-In this talk I will introduce Domain Driven Design and talk about structuring apps according to domain modules, and demonstrate how to use Nuxt modules to create independent submodules including Vuex modules and routes.
-
-# Nuxt 3
-
-I have implememented a quick proof-of-concept how this can be done using hooks in Nuxt 3
-
-Look into branch: [Nuxt 3](https://github.com/areindl/nuxt-structure-with-modules/tree/nuxt3)
-
 # Nuxt 2
 
+This is the legacy branch for the Nuxt 2 version of the demo app. For the Nuxt 3 version, please check out the [main branch](https://github.com/areindl/nuxt-structure-with-modules).
 
 ## 👨🏼‍💻 Demo
 
@@ -21,12 +12,12 @@ Look into branch: [Nuxt 3](https://github.com/areindl/nuxt-structure-with-module
 
 ### 📚 Resources
 
-- [x] [Slides of this Talk](static/slides.pdf)
-- [x] Blog post [Domain-Driven Design in Nuxt Apps](https://vueschool.io/articles/vuejs-tutorials/domain-driven-design-in-nuxt-apps/) by Filip Rakowski
-- [x] Recommended DDD-Books:
-  - [x] Domain-Driven Design: Tackling Complexity in the Heart of Software - by Eric Evans
-  - [x] Implementing Domain-Driven Design by Vaughn Vernon
-  - [x] Domain-Driven Design Distilled by Vaughn Vernon
+* [x] [Slides of this Talk](static/slides.pdf)
+* [x] Blog post [Domain-Driven Design in Nuxt Apps](https://vueschool.io/articles/vuejs-tutorials/domain-driven-design-in-nuxt-apps/) by Filip Rakowski
+* [x] Recommended DDD-Books:
+  + [x] Domain-Driven Design: Tackling Complexity in the Heart of Software - by Eric Evans
+  + [x] Implementing Domain-Driven Design by Vaughn Vernon
+  + [x] Domain-Driven Design Distilled by Vaughn Vernon
 
 ## 👨🏽‍💼 Demo Build Setup
 
