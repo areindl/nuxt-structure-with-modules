@@ -1,5 +1,5 @@
 import { defineNuxtModule } from '@nuxt/kit'
-import { resolve, join } from 'pathe'
+import { resolve, join } from 'path'
 import type { Nuxt } from '@nuxt/schema'
 
 export default defineNuxtModule({
