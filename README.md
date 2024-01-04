@@ -6,7 +6,6 @@ We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
 This example implements a fresh Nuxt 3 with a Blog module imported from `.modules/blog'.
 
-## Setup
 
 Make sure to install the dependencies
 
